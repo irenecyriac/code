@@ -1,0 +1,21 @@
+int valve = 2;
+int buzzer = 9;
+int led = 3;
+void setup()
+{
+  pinMode(valve, OUTPUT);
+  pinMode (buzzer, OUTPUT);
+pinMode (led, OUTPUT);
+  digitalWrite(valve, HIGH);
+  digitalWrite(buzzer, HIGH);
+digitalWrite(led,LOW);
+  digitalWrite(valve, LOW);
+  delay(2000);
+  digitalWrite(valve, HIGH);
+  digitalWrite(buzzer, LOW);
+digitalWrite (led, HIGH);
+}
+void loop()
+{
+
+}
